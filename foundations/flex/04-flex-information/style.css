@@ -26,7 +26,9 @@ img {
 }
 
 /* Added */
-.title {
+.title,
+.text,
+.card {
   text-align: center;
 }
 
@@ -37,15 +39,6 @@ img {
   margin: 50px 70px;
 }
 
-.text {
-  text-align: center;
-  display: block;
-}
-
 .card {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  gap: 8px;
-  flex: 0 1 200px;
+  max-width: 200px;
 }
